@@ -1,6 +1,8 @@
 # DerbyPack
-[![Build Status](https://travis-ci.org/pairing4good/derbypack.png?branch=master)](https://travis-ci.org/pairing4good/derbypack/)
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pairing4good/derbypack/blob/master/LICENSE)
+
+[![Build Status](https://travis-ci.org/pairing4good/derbypack.png?branch=master)](https://travis-ci.org/pairing4good/derbypack/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

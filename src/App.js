@@ -6,8 +6,10 @@ import ReactGA from 'react-ga'
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize('UA-166929582-1');
-    ReactGA.pageview(window.location.pathname);
+    if(process.env.NODE_ENV === 'production'){
+      ReactGA.initialize('UA-166929582-1');
+      ReactGA.pageview(window.location.pathname);
+    }
   }, []);
 
   return (

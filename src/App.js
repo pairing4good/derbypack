@@ -8,7 +8,9 @@ function App() {
   useEffect(() => {
     if(process.env.NODE_ENV === 'production'){
       ReactGA.initialize('UA-166929582-1');
-      ReactGA.pageview(window.location.pathname);
+      const pageView = window.location.pathname + window.location.search;
+      console.log("pageView = " + pageView);
+      ReactGA.pageview(pageView);
     }
   }, []);
 

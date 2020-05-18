@@ -9,7 +9,7 @@ function App() {
     if(process.env.NODE_ENV === 'production'){
       ReactGA.initialize('UA-166929582-1');
       const pageView = window.location.pathname + window.location.search;
-      console.log("pageView = " + pageView);
+      console.log("react ga:" + ReactGA.ga());
       ReactGA.pageview(pageView);
     }
   }, []);

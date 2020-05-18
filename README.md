@@ -1,3 +1,7 @@
+# DerbyPack
+[![Build Status](https://travis-ci.org/pairing4good/derbypack.png?branch=master)](https://travis-ci.org/pairing4good/derbypack/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

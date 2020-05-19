@@ -7,10 +7,8 @@ function App() {
 
   useEffect(() => {
     if(process.env.NODE_ENV === 'production'){
-      ReactGA.initialize('UA-166929582-1');
-      const pageView = window.location.pathname + window.location.search;
-      console.log("react ga:" + ReactGA.ga());
-      ReactGA.pageview(pageView);
+      ReactGA.initialize('UA-166929582-1', { debug: true });
+      ReactGA.pageview(window.location.pathname + window.location.search);
     }
   }, []);
 

@@ -1,16 +1,9 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ReactGA from 'react-ga'
 
 function App() {
-
-  useEffect(() => {
-    if(process.env.NODE_ENV === 'production'){
-      ReactGA.initialize('UA-166929582-1', { debug: true });
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
-  }, []);
 
   return (
     <div className="App">
